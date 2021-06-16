@@ -128,14 +128,7 @@ def sub_calculator():
         sys.exit()
         
     
-sub_calculator()
-    
 
-#Generation of random IP addresses
-#while True:
- #   gen_ip = input("Generate random IP address from this subnet? (y/n)")
-
-  #  if gen_ip == "y":
         
         
     
