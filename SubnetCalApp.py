@@ -1,6 +1,6 @@
 from ip_addr_valid import ip_addr_valid
 from subnet_mask_validity import subnet_mask_validity
-from sub_calculator1 import sub_calculator1
+from sub_calculator1 import sub_calculator
 import sys
 ip = input("Enter an ip address :")
 try:
@@ -19,7 +19,7 @@ except KeyboardInterrupt:
     sys.exit()
 
 
-sub_calculator1()
+sub_calculator(ip, subnet_mask)
     
 
     
