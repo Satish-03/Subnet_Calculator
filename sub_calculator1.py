@@ -22,12 +22,7 @@ def sub_calculator(ip, subnet_mask):
     num_sub_bit = 32 - num_host_bit
     num_host = abs(2**num_host_bit - 2)
 
-        ##Counting the number of host bits in the mask and calculating the number of hots and subnet#method2
-        #binary_mask = "".join(bin_sub)
-        #num_host_bit = binary_mask.count('0')
-        #num_sub_bit = 32 - num_host
-        #num_host = abs(2**num_host_bit - 2)
-
+        ##Counting the number of host bits in the mask and calculating the number of hots and subnet
         #Obtaining the wildcard mask
     wildcard_octet = []
     for octet in sub_octet:
@@ -85,17 +80,3 @@ def sub_calculator(ip, subnet_mask):
     print("Wildcast mask: %s" %wildcard_mask)
     print("Mask bits: %s" %num_sub_bit)
     print("\n")
- 
-
-
-        
-    
-
-        
-        
-    
-
-
-
-        
-        
