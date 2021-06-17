@@ -12,24 +12,3 @@ def ip_addr_valid(ip):
         else:
             print('\n* There was an invalid IP address in the file: {} :(\n'.format(ip))
             sys.exit()
-
-
-
-
-
-        
-
-
-
-
-
-    
-        
-    
-
-    
-
-
-
-
-            
